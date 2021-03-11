@@ -31,6 +31,7 @@ if args.type == "temp":
   min_temp=(data["main"]["temp_min"])
   print ("INFO: Current temp is: " + str(round(current_temp,1)) + "C. It feels like: " + str(round(feels_like,1)) + "C. Todays max temp is: " + str(round(max_temp,1)) + "C. Todays min temp is: " + str(round(min_temp,1)) + "C | current_temp=" + str(round(current_temp,1)) + "C feels_like=" + str(round(feels_like,1)) + "C max_temp=" + str(round(max_temp,1)) + "C min_temp=" + str(round(min_temp,1)) + "C")
   exit(0)
+  
 # Wind
 elif args.type == "wind":
   current_wind=(data["wind"]["speed"])
@@ -53,6 +54,7 @@ elif args.type == "pressure":
 elif args.type == "description":
   weather_desc=(data["weather"][0]["description"])
   print ("INFO: Weather description is: " + weather_desc + ".")
+  exit(0)
 
 # Invalid weather type
 else:
