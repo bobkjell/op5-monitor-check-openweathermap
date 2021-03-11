@@ -3,6 +3,8 @@ Monitor weather statistics from OpenWeatherMap with OP5 Monitor. <br/>
 Requires access to OpenWeatherMap API. More info here: https://openweathermap.org/appid <br/>
 Weather locations can be found at: https://openweathermap.org/find 
 
+![alt text](https://github.com/bobkjell/op5-monitor-check-openweathermap/blob/main/openweathermap-checks.png "OpenWeatherMap service-checks")
+
 ## Requires
 * python-requests
 * OpenWeather API key
